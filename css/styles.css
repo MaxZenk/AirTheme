@@ -1,0 +1,283 @@
+html{
+	background-image: url('../images/bg.png');
+	background-attachment: fixed;
+	background-position: -110px -50px;
+	background-repeat: repeat;
+}
+header {
+	background: #23232e;
+	height: 100%;
+}
+header .logo {
+	padding-top: 80px; 
+	text-align: center;
+	height: 140px;
+}
+.big-uppercase {
+	text-transform: uppercase;
+	text-align: center;
+	font: 80px 'Segoe UI', sans-serif;
+	line-height: 80px;
+	font-weight: 900;
+}
+header .big-uppercase {
+	color: #fff;
+	padding-top: 170px;
+}
+header .inf {
+	margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 180px;
+	text-align: center;
+	font: 18px 'Segoe UI', sans-serif;
+	color: white;
+}
+.butt {
+	margin: 0 auto;
+	margin-bottom: 50px;
+	height: 45px;
+	width: 45px;
+	display: block;
+	position: relative;
+	border: 2px solid white;
+	border-radius: 50%;
+	text-align: center;
+	background-image: url('../images/arrow-down.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.about {
+	width: 860px;
+	text-align: center;
+	margin: 0 auto;
+}
+.about  .p1 {
+	padding-top: 120px;
+	padding-bottom: 50px;
+	font: 30px 'Segoe UI', sans-serif;
+	color: #464b4f;
+}
+.about  .p2 {
+	font: 30px 'Segoe UI', sans-serif;
+	color: #464b4f;
+}
+#content .big-uppercase {
+	padding-top: 120px;
+}
+.what {
+	width: 940px;
+	margin: 0 auto;
+}
+.head {
+	text-transform: uppercase;
+	padding-bottom: 30px; 
+	font: 18px 'Segoe UI', sans-serif;
+}
+.text {
+	font: 18px 'Segoe UI', sans-serif;
+}
+.what-i-do{
+	height: 100%;
+}
+.what-i-do .big-uppercase {
+	color: #464b4f;
+}
+.what-i-do .what {
+	margin-top: 90px;
+	margin-bottom: 120px;
+}
+.what-i-do .what .head {
+	color: #464b4f;
+}
+.what-i-do .what .text {
+	color: #888a8b;
+	line-height: 30px;
+}
+.what .col {
+	width: 32%;
+	display: inline-block; 
+	padding-right: 2%;
+	vertical-align:top;
+}
+.what .col:nth-child(3n) {
+	padding-right: 0;
+}
+.my-work {
+	background: #23232e;
+	color: #fff;
+	height: 100%;
+}
+.my-work .big-uppercase{
+	padding-top: 125px;
+}
+.my-work-menu {
+	margin: 55px auto 0;
+}
+.my-work-menu ul {
+	list-style: none;
+	padding: 0;
+}
+.my-work-menu ul li {
+	display: inline-block;
+	width: 188px;
+	text-align: center;
+}
+.my-work-menu ul li a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding-bottom: 5px;
+	border-bottom: 2px solid transparent;
+	transition: all 250ms ease-in;
+}
+.my-work-menu ul li a:hover{
+	border-bottom-color: #7b77c9;
+}
+.content {
+	width: 940px;
+	margin: 0 auto;
+}
+.my-work .what .col{
+	margin-top: 50px;
+}
+.my-work .what .col .img {
+	width: 100%;
+	height: 300px;
+	background: #7b77c9;
+}
+.my-work .what .col .img-header {
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font: 21px 'Segoe UI', sans-serif;
+	text-align: center;
+	text-transform: capitalize;
+}
+.my-work .what .col .img-header-description {
+	font: 14px 'Segoe UI', sans-serif;
+	color: #818baa;
+	text-align: center;
+	text-transform: capitalize;
+}
+.button {
+	background: #7b77c9;
+	text-transform: capitalize;
+	font: 18px 'Segoe UI', sans-serif;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	width: 210px;
+	height: 60px;
+	line-height: 60px;
+	margin:  85px auto;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+.photography .this-about {
+	padding: 55px 95px 35px 95px;
+	font-size: 30px;
+}
+.photography .big-uppercase {
+	padding-top: 120px;
+	color: #464b4f;
+}
+.photography .what .col .img {
+	width: 100%;
+	height: 300px;
+	background: #7b77c9;
+}
+.this-about{
+	font-size: 18px;
+	font-family: 'Segoe UI', sans-serif;
+	text-align: center;
+	color: #888a8b;
+}
+.photography .what .col .img {
+	margin-top: 20px;
+	width: 100%;
+	height: 300px;
+	background: #7b77c9;
+}
+.photography .button {
+	margin-bottom: 85px;
+	margin-top: 85px;
+}
+.contact-with-me{
+	background: #23232e;
+	color: #fff;
+	padding: 160px 0 265px 0;
+	margin: 0;
+}
+.contact-with-me .this-about{
+	margin: 50px auto;
+	color: #fff;
+}
+.contact-with-me form {
+	width: 605px;
+	display: block;
+	margin: 0 auto;
+	vertical-align: top;
+}
+.contact-with-me .email{
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	width: 340px;
+	height: 60px;
+	padding: 0 20px;
+	float: left;
+}
+.contact-with-me .button {
+	margin: 0 0 0 10px;
+	float: left;
+	height: 60px;
+}
+footer {
+	font-size: 18px;
+	margin-bottom: 100px;
+	color: #888a8b;
+	text-align: center;
+}
+.row {
+	margin: 100px auto 100px;
+	padding: 0;
+}
+.twitter {
+	background-image: url('../images/twitter-logo-silhouette.svg');
+	width: 70px;
+	height: 35px;
+	background-size: 35px 35px;
+	background-position: center center;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+.dribble {
+	background-image: url('../images/ball.svg');
+	width: 70px;
+	height: 35px;
+	background-size: 35px 35px;
+	background-position: center center;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+.behance {
+	background-image: url('../images/behance-logo.svg');
+	width: 70px;
+	height: 35px;
+	background-size: 35px 35px;
+	background-position: center center;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+.instagram {
+	background-image: url('../images/instagram-logo.svg');
+	width: 70px;
+	height: 35px;
+	background-size: 35px 35px;
+	background-position: center center;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+.made {
+	padding-top: 30px;
+}
